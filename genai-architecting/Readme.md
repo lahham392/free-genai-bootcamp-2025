@@ -51,4 +51,18 @@ all the attached diagrams considered as conceptual diagrams for our project, ...
 ### Data Sources
 Public Spanish Datasets: Wikipedia (Spanish), Common Crawl, OpenSubtitles, CC100-ES, and Spanish news articles.
 
-### 
+### Privacy Measures
+* Anonymization: Remove personally identifiable information (PII) from datasets.
+* Data Minimization: Collect only necessary user data for personalization.
+* Encryption:
+    *  At Rest: AES-256 encryption for stored user data.
+    * In Transit: TLS 1.2/1.3 for securing API communication.
+* Access Controls: Role-based access for teachers, students, and administrators. (will be added in the future)
+
+## Model Selection and Development
+
+* Will use SaaS AI model accessed via API (most likely Chatgpt or Anthropic Claude)
+* The input will be text and output text
+* Most of AI models supports Spanish language, based on testing will check if multiple models required.
+* We do not think there will be Fine-tuning for the model
+* will use open-source tools for model evaluation such as Ragas
