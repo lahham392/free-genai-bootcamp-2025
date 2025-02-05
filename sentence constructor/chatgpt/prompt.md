@@ -27,6 +27,7 @@ the formatted output will generally contain three parts:
 
 ### Sentence Structure
 - do not provide particles in the sentence structure
+- do not provide tenses or conjugations in the tenses structure
 
 ### Clues and Considerations
 - try and provide a non-nested bulleted list
