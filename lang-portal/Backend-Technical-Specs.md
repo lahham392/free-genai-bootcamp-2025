@@ -16,6 +16,24 @@ A language learning school wants to build a prototype of learning portal which w
 - There will be no authentication or authorization
 - Everything treated as a single user
 
+## Directory Structure
+
+```text
+backend-go
+├── cmd/
+│   └── server/
+├── internal/
+│   ├── models/
+│   ├── handlers/
+│   ├── services/
+├── db/
+│   ├── migrations/
+│   ├── seeds/
+├── magefile.go
+├── go.mod
+└── words.db
+```
+
 ## Database Schema
 
 Our database will be a single sqlite database called `words.db` that will be on the root of the project folder of `backend-go`.
