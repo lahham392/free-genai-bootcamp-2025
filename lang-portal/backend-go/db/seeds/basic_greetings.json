@@ -1,0 +1,42 @@
+{
+  "group": {
+    "name": "Basic Greetings"
+  },
+  "words": [
+    {
+      "spanish": "hola",
+      "transliteration": "هولا",
+      "arabic": "مرحبا"
+    },
+    {
+      "spanish": "buenos días",
+      "transliteration": "بوينوس دياس",
+      "arabic": "صباح الخير"
+    },
+    {
+      "spanish": "buenas tardes",
+      "transliteration": "بوينس تاردس",
+      "arabic": "مساء الخير"
+    },
+    {
+      "spanish": "buenas noches",
+      "transliteration": "بوينس نوتشس",
+      "arabic": "ليلة سعيدة"
+    },
+    {
+      "spanish": "gracias",
+      "transliteration": "غراثياس",
+      "arabic": "شكرا"
+    },
+    {
+      "spanish": "por favor",
+      "transliteration": "بور فابور",
+      "arabic": "من فضلك"
+    },
+    {
+      "spanish": "de nada",
+      "transliteration": "دي نادا",
+      "arabic": "عفوا"
+    }
+  ]
+}

@@ -229,15 +229,15 @@ pagination with 100 items per page
 
 ### POST /api/study_activities
 ### Request Parameters 
-- group_id
-- study_activity_id
+- group_id integer
+- study_activity_id integer
 
 #### JSON Response
 
 ```json
 {
   "id": 1,
-  "group_id": 1
+  "group_id": 123
 }
 ```
 
