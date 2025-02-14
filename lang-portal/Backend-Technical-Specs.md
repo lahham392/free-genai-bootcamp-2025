@@ -143,7 +143,7 @@ Returns information about the most recent study session.
   "id": 1,
   "created_at": "2024-02-14T12:00:00Z",
   "group_id": 1,
-  "group_name": "Greetings",
+  "group_name": "Basic Greetings",
   "study_activity_id": "flashcards",
   "word_count": 15,
   "correct_count": 12,
@@ -193,8 +193,8 @@ pagination with 100 items per page
   "items": [
     {
       "id": 1,
-      "activity_name": "Greetings",
-      "group_name": "Greetings",
+      "activity_name": "Vocabulary quiz",
+      "group_name": "Basic Greetings",
       "start_time": "2024-02-14T12:00:00Z",
       "end_time": "2024-02-14T12:30:00Z",
       "review_items_count": 15
@@ -252,8 +252,8 @@ pagination with 100 items per page
   "items": [
     {
       "id": 1,
-      "activity_name": "Greetings",
-      "group_name": "Greetings",
+      "activity_name": "Vocabulary quiz",
+      "group_name": "Basic Greetings",
       "start_time": "2024-02-14T12:00:00Z",
       "end_time": "2024-02-14T12:30:00Z",
       "review_items_count": 15
@@ -274,8 +274,8 @@ pagination with 100 items per page
   "items": [
     {
       "id": 1,
-      "activity_name": "Greetings",
-      "group_name": "Greetings",
+      "activity_name": "Vocabulary quiz",
+      "group_name": "Basic Greetings",
       "start_time": "2024-02-14T12:00:00Z",
       "end_time": "2024-02-14T12:30:00Z",
       "review_items_count": 15
@@ -296,8 +296,8 @@ pagination with 100 items per page
   "items": [
     {
       "id": 1,
-      "activity_name": "Greetings",
-      "group_name": "Greetings",
+      "activity_name": "Vocabulary quiz",
+      "group_name": "Basic Greetings",
       "start_time": "2024-02-14T12:00:00Z",
       "end_time": "2024-02-14T12:30:00Z",
       "review_items_count": 15
@@ -318,8 +318,8 @@ pagination with 100 items per page
   "items": [
     {
       "id": 1,
-      "activity_name": "Greetings",
-      "group_name": "Greetings",
+      "activity_name": "Vocabulary quiz",
+      "group_name": "Basic Greetings",
       "start_time": "2024-02-14T12:00:00Z",
       "end_time": "2024-02-14T12:30:00Z",
       "review_items_count": 15
