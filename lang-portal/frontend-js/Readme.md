@@ -2,8 +2,6 @@
 
 A modern web application for learning languages through interactive study activities, with a focus on Spanish-Arabic translations.
 
-![Language Portal Screenshot](https://images.unsplash.com/photo-1546521343-4eb2c01aa44b?w=800&auto=format&fit=crop&q=60)
-
 ## Features
 
 - 📚 Multiple study activities (flashcards, word matching, sentence building)
