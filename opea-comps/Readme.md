@@ -17,3 +17,41 @@ newgrp docker
 ```bash
 docker run hello-world
 ```
+
+### Running Ollama Third-Party Service
+
+to choose the model check: https://Ollama.com/library
+
+#### Gettinf the host IP
+```sh
+sudo apt-get install net-tools
+ifconfig
+```
+
+#### Environment Variables
+```sh
+NO_PROXY=localhost LLM_ENDPOINT_PORT=8008 LLM_MODEL_ID="llama3.2:1b" host_ip=172.29.70.192 docker compose up
+```
+
+#### Ollama API
+once the ollama server is runnnig we can make API calls to the ollama API
+
+https://github.com/ollama/ollama/blob/main/docs/api.md
+
+#### Download (Pull) The Model
+```sh
+curl http://localhost:8008/api/pull -d '{
+  "model": "llama3.2:1b"
+}'
+```
+
+#### Genearate a request
+```sh
+curl http://localhost:8008/api/generate -d '{
+  "model": "llama3.2:1b",
+  "prompt": "Why is the sky blue?"
+}'
+```
+
+
+
