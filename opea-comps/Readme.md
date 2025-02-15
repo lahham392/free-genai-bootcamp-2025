@@ -45,6 +45,8 @@ curl http://localhost:8008/api/pull -d '{
 }'
 ```
 
+![alt text](image.png)
+
 #### Genearate a request
 ```sh
 curl http://localhost:8008/api/generate -d '{
@@ -53,5 +55,5 @@ curl http://localhost:8008/api/generate -d '{
 }'
 ```
 
-
+![alt text](image-1.png)
 
