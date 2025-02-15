@@ -2,7 +2,7 @@
 
 A modern web application that generates vocabulary lists in Spanish and Arabic with transliteration using AWS Bedrock and Claude 3 Sonnet AI model.
 
-![Vocabulary Generator Screenshot](https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80&w=1200&h=600)
+![alt text](image.png)
 
 ## Features
 
