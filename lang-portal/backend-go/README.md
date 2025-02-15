@@ -47,6 +47,7 @@ The application provides several URLs that users can access:
 
 1. **Words**
    - `GET /api/words`: Get all vocabulary words
+   - `GET /api/words/:id`: Get a specific word with its stats and groups
    ```json
    {
      "items": [
@@ -61,7 +62,10 @@ The application provides several URLs that users can access:
    ```
 
 2. **Groups**
-   - `GET /api/groups`: Get all word groups (like "Greetings", "Numbers")
+   - `GET /api/groups`: Get all word groups
+   - `GET /api/groups/:id`: Get a specific group
+   - `GET /api/groups/:id/words`: Get words in a specific group
+   - `GET /api/groups/:id/study_sessions`: Get study sessions for a group
    ```json
    {
      "items": [
@@ -76,32 +80,57 @@ The application provides several URLs that users can access:
 
 3. **Study Sessions**
    - `POST /api/study_activities`: Start a new study session
-   - `GET /api/study_sessions`: See all study sessions
-   - `POST /api/study_sessions/1/words/1/review`: Record when a user practices a word
+   - `GET /api/study_sessions`: Get all study sessions
+   - `GET /api/study_sessions/:id`: Get a specific study session
+   - `GET /api/study_sessions/:id/words`: Get words reviewed in a session
+   - `POST /api/study_sessions/:id/words/:word_id/review`: Record a word review
+
+4. **Dashboard**
+   - `GET /api/dashboard/last_session`: Get the last study session
+   - `GET /api/dashboard/progress`: Get study progress
+   - `GET /api/dashboard/quick_stats`: Get quick statistics
+
+5. **System**
+   - `POST /api/reset_history`: Reset study history
+   - `POST /api/full_reset`: Full system reset
 
 ### 4.3 Database Tables
-The database has several tables:
+The database has six main tables:
 
 1. **words**: Stores vocabulary
-   - id
+   - id (PRIMARY KEY)
    - spanish (word in Spanish)
    - arabic (word in Arabic)
    - transliteration (Arabic pronunciation in Latin letters)
 
 2. **groups**: Categories of words
-   - id
-   - name (like "Greetings", "Numbers")
+   - id (PRIMARY KEY)
+   - name (unique group name like "Greetings", "Numbers")
 
-3. **study_sessions**: Records of practice sessions
-   - id
+3. **word_groups**: Links words to their groups
+   - id (PRIMARY KEY)
+   - word_id (reference to words table)
+   - group_id (reference to groups table)
+   - UNIQUE constraint on (word_id, group_id)
+
+4. **study_sessions**: Records of practice sessions
+   - id (PRIMARY KEY)
    - created_at (when the session started)
    - group_id (which word group was practiced)
    - study_activity (what type of practice, like "Flashcards")
 
-4. **study_activities**: Details of what happened in each session
-   - id
-   - study_session_id (which session this belongs to)
+5. **study_activities**: Details of what happened in each session
+   - id (PRIMARY KEY)
+   - study_session_id (reference to study_sessions table)
+   - group_id (reference to groups table)
    - created_at (when this activity happened)
+
+6. **word_review_items**: Records of word reviews
+   - word_id (reference to words table)
+   - study_session_id (reference to study_sessions table)
+   - correct (whether the review was correct)
+   - created_at (when the review happened)
+   - PRIMARY KEY (word_id, study_session_id)
 
 ## 5. Code Components Explained
 
