@@ -1,0 +1,42 @@
+# Copyright (C) 2024 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-container
+    restart: always
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    ports:
+      - '5442:5432'
+    volumes:
+      - ../../src/chinook.sql:/docker-entrypoint-initdb.d/chinook.sql
+
+  text2sql:
+    image: opea/text2sql:${TAG:-latest}
+    container_name: text2sql-server
+    ports:
+      - ${TEXT2SQL_PORT:-9090}:8080
+    environment:
+      - TGI_LLM_ENDPOINT=http://172.17.0.1:8008
+      - HF_MODEL_ID=llama3.2:1b
+      - HF_TASK=text-generation
+      - INFERENCE_SERVER_URL=http://172.17.0.1:8008/api/generate
+      - MODEL_NAME=llama3.2:1b
+      - TEMPERATURE=0.01
+      - MAX_NEW_TOKENS=1024
+      - TOP_K=10
+      - TOP_P=0.95
+      - REPETITION_PENALTY=1.03
+      - "STOP_SEQUENCES=Thought:,Action:,Action Input:,Observation:,Final Answer:"
+      - DO_SAMPLE=true
+      - RETURN_FULL_TEXT=false
+    depends_on:
+      - postgres
+
+networks:
+  default:
+    driver: bridge
