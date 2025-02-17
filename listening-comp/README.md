@@ -1,7 +1,7 @@
 ## How to run the Frontend
 
 ```sh
-stramlit run frontend/main.py
+streamlit run frontend/main.py
 ```
 
 ## How to run Backend
