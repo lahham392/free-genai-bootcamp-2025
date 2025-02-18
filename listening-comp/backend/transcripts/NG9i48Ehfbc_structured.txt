@@ -1,0 +1,281 @@
+### Scenario 1
+**Format Description:**
+This is Scenario [1] of the listening comprehension exercise. Each scenario presents a unique conversation in Spanish, followed by the original comprehension questions that test the student's understanding of the dialogue.
+
+**Topic:** Meeting and Conversation in a Café
+
+**Introduction:**
+Angélica estaba en la cafetería cuando de repente apareció Pepito.
+
+**Conversation:**
+amiga tengo que contarte algo qué cosa
+imagínate que yo estaba sentada en la
+cafetería de siempre cuando de repente
+apareció pepito amiga disculpa que te
+interrumpa la verdad no puedo hablar
+ahora entonces porque contestaste en
+caso de que fuera una emergencia pero
+veo que solo es un chisme así que debo
+volver al trabajo yo te llamo más tarde
+si está bien a qué horas a las seis te
+parece perfecto hablamos entonces chau chau
+
+**Question:**
+pregunta número uno donde estaba angélica en su historia
+
+**Options:**
+A) en la librería
+B) en la cafetería
+C) se en la ferretería
+D) en el cine
+
+**Correct Answer:** B
+
+**Question:**
+pregunta número dos porque camila no podía hablar por teléfono
+
+**Options:**
+A) porque no quería escuchar el chisme
+B) porque tenía una emergencia
+C) sé porque estaba trabajando
+D) porque estaba en la playa
+
+**Correct Answer:** C
+
+**Question:**
+a qué horas va a llamar camila angélica otra vez
+
+**Options:**
+A) a las 6
+B) a las 3
+C) a las siete
+D) a las ocho
+
+**Correct Answer:** A
+
+### Scenario 2
+**Format Description:**
+This is Scenario [2] of the listening comprehension exercise. Each scenario presents a unique conversation in Spanish, followed by the original comprehension questions that test the student's understanding of the dialogue.
+
+**Topic:** Weekend Plans
+
+**Introduction:**
+Natalia está planeando sus actividades para el fin de semana.
+
+**Conversation:**
+en la oficina natalia qué vas a hacer este fin de semana
+no estoy segura creo que mañana sólo
+haré las tareas del hogar y pasaré a mi
+perro y el domingo voy a leer un libro y
+tú el sábado voy a una fiesta y el
+domingo vamos a la playa quieres ir no
+lo sé creo que quiero descansar este fin
+de semana el fin de semana pasado estuve
+en una fiesta hasta muy tarde y luego
+trabajé toda la semana
+
+**Question:**
+pregunta número 1 qué día va a hacer natalia las tareas del hogar y el domingo ve el viernes y el sábado
+
+**Options:**
+A) el viernes
+B) el sábado
+C) el domingo
+D) el lunes
+
+**Correct Answer:** B
+
+**Question:**
+pregunta número 2 que va a ser vanessa el sábado y va a la playa
+
+**Options:**
+A) va a una fiesta
+B) se va a descansar
+C) va a ir al cine
+D) va a leer un libro
+
+**Correct Answer:** A
+
+**Question:**
+pregunta número 3 donde va a hacer la fiesta
+
+**Options:**
+A) en una discoteca
+B) en el bar centro
+C) en la casa de vanessa
+D) en el cine
+
+**Correct Answer:** B
+
+### Scenario 3
+**Format Description:**
+This is Scenario [3] of the listening comprehension exercise. Each scenario presents a unique conversation in Spanish, followed by the original comprehension questions that test the student's understanding of the dialogue.
+
+**Topic:** First Trip to New York
+
+**Introduction:**
+La narradora y su novio van a Nueva York por primera vez.
+
+**Conversation:**
+escenario tour y dentro de una semana mi
+novio y yo vamos por primera vez a nueva
+york y vamos a hacer todas las cosas
+típicas de turista porque porque no
+primero vamos a ir al rockefeller y
+subir al show de raw he escuchado que se
+ve una maravillosa vista de la ciudad
+desde ahí al día siguiente vamos a hacer
+un picnic en centro farc la razón
+principal por la que vamos a nueva york
+es porque nos invitaron a una boda y eso
+es lo que haremos el tercer día después
+de eso queremos improvisar un poco y
+visitar varios restaurantes porque no
+hay un buen viaje sin buena comida
+
+**Question:**
+pregunta número 1 que van a hacer la
+narradora y su novio en su primer día en
+nueva york
+a visitar el rockefeller de visitar el
+empire state building
+y visitar la estatua de la libertad
+
+**Options:**
+A) visitar el rockefeller
+B) visitar el empire state building
+C) visitar la estatua de la libertad
+D) todas las opciones anteriores
+
+**Correct Answer:** A
+
+**Question:**
+pregunta número dos porque van a nueva york- adquieren conocer centro farc que quieren ir a los restaurantes se los invitaron a una boda
+
+**Options:**
+A) porque los invitaron a una boda
+B) porque quieren conocer el centro farc
+C) porque quieren ir a los restaurantes
+D) porque quieren visitar el museo
+
+**Correct Answer:** A
+
+**Question:**
+pregunta número 3 que van a hacer el segundo día y van a caminar por central park y van al cine se van a hacer un picnic en central park
+
+**Options:**
+A) van a caminar por central park y van al cine
+B) se van a hacer un picnic en central park
+C) van a ir al cine y van a caminar por central park
+D) van a hacer un picnic en el centro farc
+
+**Correct Answer:** B
+
+### Scenario 4
+**Format Description:**
+This is Scenario [4] of the listening comprehension exercise. Each scenario presents a unique conversation in Spanish, followed by the original comprehension questions that test the student's understanding of the dialogue.
+
+**Topic:** Travel to Europe
+
+**Introduction:**
+La narradora cuenta sobre su viaje a Europa.
+
+**Conversation:**
+escenario fue hace dos años fui de viaje a europa y visité varios países primero fui a españa
+estuve ahí cinco días mi parte favorita
+fue visitar la sagrada familia en
+barcelona después fui en tren a francia
+donde visité por supuesto la torre
+eiffel pero lo mejor de todo fue el
+valle de loira por ultimo fui a bélgica
+tenía muchas ganas de probar sus
+cervezas artesanales y me encantó
+caminar las calles de bruselas lo mejor
+de ese viaje fue toda la maravillosa
+gente que conocí espero volver pronto
+
+**Question:**
+pregunta número uno en cuántos países de europa estuvo el narrador a 4
+b3
+c2
+
+**Options:**
+A) 4
+B) 3
+C) 2
+
+**Correct Answer:** B
+
+**Question:**
+pregunta número 2 cuál fue su lugar favorito de españa
+
+**Options:**
+A) la sagrada familia
+B) de barcelona
+C) el tren
+D) la playa
+
+**Correct Answer:** A
+
+**Question:**
+pregunta número 3 porque quería el narrador ir a bélgica
+
+**Options:**
+A) quería caminar por bruselas
+B) me quería probar la comida
+C) se quería probar sus cervezas artesanales
+D) quería ir a la playa
+
+**Correct Answer:** C
+
+### Scenario 5
+**Format Description:**
+This is Scenario [5] of the listening comprehension exercise. Each scenario presents a unique conversation in Spanish, followed by the original comprehension questions that test the student's understanding of the dialogue.
+
+**Topic:** Preparing for a Party
+
+**Introduction:**
+Carmen está ayudando a preparar una fiesta y necesita que Amarilla traiga algunas cosas.
+
+**Conversation:**
+en el teléfono o la amarilla hola carmen emocionada por la fiesta sí mucho de hecho te estoy
+llamando porque necesito que traigas unas cosas por favor claro que sí
+que necesitas unos globos
+confeti y un litro de gaseosa listo
+necesitas que lleve vasos también no
+tranqui los vasos los va a traer jean
+carlos
+perfecto a qué horas llegó la fiesta es
+a las 6 pero puedes llegar a las 5 para
+que me ayudes con las cosas por supuesto
+nos vemos allá dale el chau pues
+
+**Question:**
+pregunta número 1 que tiene que llevar amarilla a la fiesta a globos y confeti de gaseosa y vasos
+
+**Options:**
+A) de globos confeti y gaseosa
+B) de globos confeti y vasos
+C) de gaseosa y vasos
+D) de globos y vasos
+
+**Correct Answer:** A
+
+**Question:**
+pregunta número 2 quien debe llevar los vasos a jean carlos de maría de carmen
+
+**Options:**
+A) a jean carlos
+B) a maría
+C) a carmen
+D) a nadie
+
+**Correct Answer:** A
+
+**Question:**
+pregunta número 3 a qué horas debe estar María en la fiesta a las 4 b a las 6 c a las 5
+
+**Options:**
+A) a las 4
+B) a las 6
+C
