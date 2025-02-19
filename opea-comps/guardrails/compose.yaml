@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  tgi-server:
+    image: ghcr.io/huggingface/text-generation-inference:1.4
+    container_name: tgi-guardrails-server
+    environment:
+      - MODEL_ID=meta-llama/Meta-Llama-Guard-2-8B
+      - USE_CUDA=true
+      - MAX_BATCH_TOTAL_TOKENS=32768
+    ports:
+      - "8080:80"
+    volumes:
+      - ~/.cache/huggingface:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  llamaguard-guardrails-server:
+    image: opea/guardrails:latest
+    container_name: llamaguard-guardrails-server
+    environment:
+      - SAFETY_GUARD_ENDPOINT=http://tgi-server
+      - GUARDRAILS_COMPONENT_NAME=OPEA_LLAMA_GUARD
+    ports:
+      - "9090:9090"
+    depends_on:
+      - tgi-server
+
+networks:
+  default:
+    driver: bridge
