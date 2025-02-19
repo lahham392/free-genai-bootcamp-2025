@@ -51,12 +51,19 @@ class QuestionVectorStore:
             except ValueError:
                 pass  # Collection doesn't exist
         
-        # Create new collection
-        self.collection = self.client.create_collection(
-            name="spanish_questions",
-            metadata={"hnsw:space": "cosine", "dimension": BedrockEmbeddings.EMBEDDING_DIMENSION},
-            embedding_function=self.embeddings
-        )
+        # Get existing collection or create new one
+        try:
+            self.collection = self.client.get_collection(
+                name="spanish_questions",
+                embedding_function=self.embeddings
+            )
+        except ValueError:
+            # Collection doesn't exist, create it
+            self.collection = self.client.create_collection(
+                name="spanish_questions",
+                metadata={"hnsw:space": "cosine", "dimension": BedrockEmbeddings.EMBEDDING_DIMENSION},
+                embedding_function=self.embeddings
+            )
 
     def add_questions(self, questions: List[Dict[str, Any]]):
         """
