@@ -57,7 +57,7 @@ class QuestionVectorStore:
                 name="spanish_questions",
                 embedding_function=self.embeddings
             )
-        except ValueError:
+        except (ValueError, chromadb.errors.InvalidCollectionException):
             # Collection doesn't exist, create it
             self.collection = self.client.create_collection(
                 name="spanish_questions",

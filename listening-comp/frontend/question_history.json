@@ -1,0 +1,102 @@
+[
+  {
+    "introduction": "Un hombre y una mujer están hablando en una cafetería.",
+    "conversation": "Hombre: ¿Cuánto cuesta esta taza de café?\nCamarero: Esta taza de café cuesta 2,50 euros. ¿Le gustaría algo más?\nMujer: ¿Tienen tarta de queso?\nCamarero: Sí, tenemos tarta de queso con frambuesa y chocolate.",
+    "question": "¿Qué quiere comprar el hombre?",
+    "options": [
+      "A) una taza de café",
+      "B) una tarta de queso",
+      "C) café y tarta de queso",
+      "D) nada"
+    ],
+    "correct_answer": "A",
+    "translation": {
+      "introduction": "A man and a woman are talking in a café.",
+      "conversation": "Man: How much is this coffee cup?\nWaiter: This coffee cup costs 2.50 euros. Would you like anything else?\nWoman: Do you have cheesecake?\nWaiter: Yes, we have raspberry and chocolate cheesecake.",
+      "question": "What does the man want to buy?",
+      "options": [
+        "A) a coffee cup",
+        "B) cheesecake",
+        "C) coffee and cheesecake",
+        "D) nothing"
+      ],
+      "correct_answer": "A"
+    },
+    "timestamp": "2025-02-20T09:07:06.070851"
+  },
+  {
+    "introduction": "Un turista y un taxista se encuentran en la calle, cerca de una estación de tren.",
+    "conversation": "Turista: ¿Podría decirme cuál es la forma más rápida de llegar a la estación de tren? Taxista: En taxi, llegaríamos en 10 minutos. Turista: ¿Cuánto cobra por el viaje? Taxista: 20 euros, y eso si tomamos la ruta directa.",
+    "question": "¿Cuál es la forma más rápida de llegar a la estación de tren según el taxista?",
+    "options": [
+      "A) En bicicleta",
+      "B) En taxi",
+      "C) En metro",
+      "D) A pie"
+    ],
+    "correct_answer": "B",
+    "translation": {
+      "introduction": "A tourist and a taxi driver are meeting on the street, near a train station.",
+      "conversation": "Tourist: Could you tell me what is the fastest way to get to the train station? Taxi driver: By taxi, we would get there in 10 minutes. Tourist: How much do you charge for the trip? Taxi driver: 20 euros, if we take the direct route.",
+      "question": "What is the fastest way to get to the train station according to the taxi driver?",
+      "options": [
+        "A) By bicycle",
+        "B) By taxi",
+        "C) By subway",
+        "D) On foot"
+      ],
+      "correct_answer": "B"
+    },
+    "timestamp": "2025-02-20T09:26:33.788714"
+  },
+  {
+    "introduction": "Una madre y su hijo están hablando en la cocina de su casa.",
+    "conversation": "Madre: ¿Qué has hecho hoy en la escuela, Carlos? Hijo: Hemos aprendido sobre la cocina española. Hemos hecho paella con arroz, pollo y verduras. Madre: ¡Qué rico! ¿Y cómo te ha quedado? Hijo: Me ha quedado bien, pero mamá, ¿podemos comer juntos mañana?",
+    "question": "¿Qué han hecho de comer los niños en la escuela?",
+    "options": [
+      "A) Pizza",
+      "B) Paella",
+      "C) Hamburguesa",
+      "D) Sándwich"
+    ],
+    "correct_answer": "B",
+    "translation": {
+      "introduction": "A mother and her son are talking in their kitchen.",
+      "conversation": "Mother: What have you done today at school, Carlos? Son: We learned about Spanish cuisine. We made paella with rice, chicken, and vegetables. Mother: How delicious! Can we eat together tomorrow? Son: It turned out well, but mom, can we eat together tomorrow?",
+      "question": "What did the children have for lunch at school?",
+      "options": [
+        "A) Pizza",
+        "B) Paella",
+        "C) Hamburger",
+        "D) Sandwich"
+      ],
+      "correct_answer": "B"
+    },
+    "timestamp": "2025-02-20T09:37:54.638609"
+  },
+  {
+    "introduction": "Un grupo de amigos está discutiendo sobre las estaciones del año durante una caminata en el parque.",
+    "conversation": "Amigo 1: ¿Sabías que en invierno, la temperatura puede bajar hasta los -10 grados Celsius en esta región?\nAmiga: ¡Sí! Y es por eso que me gusta tanto el invierno, porque puedo hacer esquí.\nAmigo 2: ¿Qué te parece el otoño?\nAmiga: El otoño es mi estación favorita porque los colores de las hojas son espectaculares.\nAmigo 1: ¿Y cómo afecta el clima a las actividades en verano?",
+    "question": "¿Cuál es la estación favorita de la amiga?",
+    "options": [
+      "A) Invierno",
+      "B) Primavera",
+      "C) Otoño",
+      "D) Verano"
+    ],
+    "correct_answer": "C",
+    "translation": {
+      "introduction": "A group of friends is discussing the seasons of the year during a hike in the park.",
+      "conversation": "Friend 1: Did you know that in winter, the temperature can drop to -10 degrees Celsius in this region?\nFriend: Yes! That's why I like winter so much because I can go skiing.\nFriend 2: What do you think about autumn?\nFriend: Autumn is my favorite season because the colors of the leaves are spectacular.\nFriend 1: And how does the weather affect summer activities?",
+      "question": "What is the friend's favorite season?",
+      "options": [
+        "A) Winter",
+        "B) Spring",
+        "C) Autumn",
+        "D) Summer"
+      ],
+      "correct_answer": "C"
+    },
+    "timestamp": "2025-02-20T09:38:58.002792"
+  }
+]
