@@ -2,6 +2,8 @@
 
 An interactive Streamlit application for Spanish language learners to practice their writing skills using handwriting recognition.
 
+![alt text](image.png)
+
 ## Features
 
 - Topic-based Spanish sentence generation using AWS Bedrock Nova
