@@ -1,0 +1,56 @@
+{
+  "Food & Dining_Beginner": {
+    "topic": "Food & Dining",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Quiero ___ pizza.",
+        "complete": "Quiero la pizza.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:28:43.310457"
+      },
+      {
+        "incomplete": "Nosotros comemos ___ en el restaurante.",
+        "complete": "Nosotros comemos pizza en el restaurante.",
+        "missing": "pizza",
+        "timestamp": "2025-02-21T13:28:43.898262"
+      },
+      {
+        "incomplete": "Comí ___ pizza ayer.",
+        "complete": "Comí la pizza ayer.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:28:44.526719"
+      },
+      {
+        "incomplete": "Quiero ___ pizza.",
+        "complete": "Quiero la pizza.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:28:46.060743"
+      }
+    ]
+  },
+  "Travel_Beginner": {
+    "topic": "Travel",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Voy a visitar ___ ciudad este verano.",
+        "complete": "Voy a visitar la ciudad este verano.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:36:22.313655"
+      }
+    ]
+  },
+  "Family & Friends_Beginner": {
+    "topic": "Family & Friends",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Mis amigos y ___ van al parque.",
+        "complete": "Mis amigos y familiares van al parque.",
+        "missing": "familiares",
+        "timestamp": "2025-02-21T13:36:22.909594"
+      }
+    ]
+  }
+}

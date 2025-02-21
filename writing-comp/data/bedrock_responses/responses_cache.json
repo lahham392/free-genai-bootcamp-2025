@@ -1,0 +1,86 @@
+{
+  "Food & Dining_Beginner": {
+    "topic": "Food & Dining",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Quiero ___ pizza.",
+        "complete": "Quiero la pizza.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:39:22.692650"
+      },
+      {
+        "incomplete": "Quiero ___ pizza para cenar.",
+        "complete": "Quiero la pizza para cenar.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:43:19.121038"
+      },
+      {
+        "incomplete": "Quiero ___ en el restaurante.",
+        "complete": "Quiero comida en el restaurante.",
+        "missing": "comida",
+        "timestamp": "2025-02-21T13:43:20.219781"
+      },
+      {
+        "incomplete": "Quiero comer ___ en el restaurante.",
+        "complete": "Quiero comer pizza en el restaurante.",
+        "missing": "pizza",
+        "timestamp": "2025-02-21T13:43:21.425549"
+      },
+      {
+        "incomplete": "Prefiero ___ pizza a las pastas.",
+        "complete": "Prefiero la pizza a las pastas.",
+        "missing": "la",
+        "timestamp": "2025-02-21T13:44:00.069199"
+      },
+      {
+        "incomplete": "Nosotros comemos ___ en el restaurante.",
+        "complete": "Nosotros comemos pizza en el restaurante.",
+        "missing": "pizza",
+        "timestamp": "2025-02-21T13:44:05.156629"
+      }
+    ]
+  },
+  "Travel_Beginner": {
+    "topic": "Travel",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Viajo ___ Europa este verano.",
+        "complete": "Viajo a Europa este verano.",
+        "missing": "a",
+        "timestamp": "2025-02-21T13:39:23.313362"
+      }
+    ]
+  },
+  "Family & Friends_Beginner": {
+    "topic": "Family & Friends",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Mis amigos y ___ son importantes para mí.",
+        "complete": "Mis amigos y familia son importantes para mí.",
+        "missing": "familia",
+        "timestamp": "2025-02-21T13:39:23.894640"
+      }
+    ]
+  },
+  "Nature & Environment_Beginner": {
+    "topic": "Nature & Environment",
+    "difficulty": "Beginner",
+    "sentences": [
+      {
+        "incomplete": "Los árboles ayudan a ___ el aire.",
+        "complete": "Los árboles ayudan a limpiar el aire.",
+        "missing": "limpiar",
+        "timestamp": "2025-02-21T13:44:14.060772"
+      },
+      {
+        "incomplete": "El ___ es importante para el medio ambiente.",
+        "complete": "El reciclaje es importante para el medio ambiente.",
+        "missing": "reciclaje",
+        "timestamp": "2025-02-21T13:44:17.736904"
+      }
+    ]
+  }
+}
