@@ -98,5 +98,30 @@
       "correct_answer": "C"
     },
     "timestamp": "2025-02-20T09:38:58.002792"
+  },
+  {
+    "introduction": "Dos amigos están sentados en una mesa en un restaurante familiar.",
+    "conversation": "Amigo 1: ¿Qué quieres pedir hoy? \nAmigo 2: Creo que voy a pedir la pizza margarita. ¿Y tú?\nAmigo 1: Yo también quiero una pizza margarita. Pero, ¿qué bebemos?\nAmigo 2: ¿Qué tal una cerveza fría?\nAmigo 1: Perfecto, una cerveza va bien.",
+    "question": "¿Qué bebrán los amigos?",
+    "options": [
+      "A) agua",
+      "B) cerveza",
+      "C) jugo de naranja",
+      "D) café"
+    ],
+    "correct_answer": "B",
+    "translation": {
+      "introduction": "Two friends are sitting at a table in a family restaurant.",
+      "conversation": "Friend 1: What do you want to order today?\nFriend 2: I think I'll have a margherita pizza. What about you?\nFriend 1: I also want a margherita pizza. But, what shall we drink?\nFriend 2: How about a cold beer?\nFriend 1: Perfect, a beer sounds good.",
+      "question": "What will the friends drink?",
+      "options": [
+        "A) water",
+        "B) beer",
+        "C) orange juice",
+        "D) coffee"
+      ],
+      "correct_answer": "B"
+    },
+    "timestamp": "2025-02-23T10:46:42.656340"
   }
 ]
