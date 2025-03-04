@@ -1,0 +1,1 @@
+# This tool take a body of text and extract the vocabulary from it into a specific structure JSON output.
