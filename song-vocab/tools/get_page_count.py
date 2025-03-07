@@ -1,1 +1,0 @@
-# This tool takes web page content and parses it to extract out the target text.

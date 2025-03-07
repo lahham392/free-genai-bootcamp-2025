@@ -1,0 +1,11 @@
+fastapi==0.109.1
+uvicorn==0.27.1
+ollama==0.1.6
+sqlite3-api==2.0.1
+instructor==0.4.8
+duckduckgo-search==4.4.3
+pydantic==2.6.1
+nltk==3.8.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+fake-useragent==1.4.0
