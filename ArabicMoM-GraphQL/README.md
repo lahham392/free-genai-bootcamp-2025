@@ -2,6 +2,20 @@
 
 This application provides a GraphQL API and Streamlit interface for exploring and analyzing Arabic Minutes of Meeting data. It allows users to view meetings, attendees, sections, recommendations, decisions, and action items.
 
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/7ec9ef67-124f-4232-93e2-b22c7bc70500)
+
+
+![image](https://github.com/user-attachments/assets/5024c90f-e1a0-4cfd-b76c-85187f72cafa)
+
+![image](https://github.com/user-attachments/assets/8dda3622-5fa9-4ad8-ae99-ef2dc210e8e6)
+
+![image](https://github.com/user-attachments/assets/0d0f64c7-6860-465e-97ce-a43949ca32fd)
+
+![image](https://github.com/user-attachments/assets/099ec132-b3af-47b9-ab82-ef98fe1f0b17)
+
+
 ## Project Structure
 
 ```
